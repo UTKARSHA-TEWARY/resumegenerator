@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+   
+    <title>Document</title>
+</head>
+<body>
+  
+  <form class="input-fields"  method="get">
+    <h1  class="nexa" >Need a Resume? join along...</h1>
+          <div class="pic">
+            <img src="imk.jpg" alt="" id="profile">
+            <label for="input" class="here">Update Image</label>
+            <input type="file" name="pic" accept="image/jpeg, image/png,image/jpg" id="input">
+          </div>
+          <div class="fl"> <input type="text" name="name" placeholder="name" class="show" id="s0" />
+            <button id="ppp" class="now"  >Delete</button></div>
+          <div class="fl"> <input type="text" name="title" placeholder="Title eg web developer" id="s1" class="show" /> <button id="ppp1" class="now" >Delete</button></div>
+          <div class="fl"> <input type="text" name="workexp" placeholder="work experience" id="s2" class="show" /> <button id="ppp2" class="now" >Delete</button></div>
+          <div class="fl"><input type="text" name="academics" placeholder="academic details" id="s3" class="show"/> <button id="ppp3" class="now" >Delete</button></div>
+          <div class="fl"> <input type="text" name="skills" placeholder="skills"id="s4" class="show" /> <button id="ppp4" class="now" >Delete</button></div>
+          <div class="fl"><input type="text"  name="projects" placeholder="projects" id="s5" class="show" /> <button id="ppp5" class="now" >Delete</button></div>
+            <div class="fl"><input type="text"  name="achievements" placeholder="achievements" id="s6" class="show" /> <button id="ppp6" class="now" >Delete</button></div>
+            <div class="fl"><input type="text"  name="contacts" placeholder="contact" id="s6" class="show" /> <button id="ppp6" class="now" >Delete</button></div>
+   </form>
+            <!-- resume preview -->
+    <div class="output">
+     
+    </div>  
+    <!-- button for toggle   -->
+    <div class="btn">
+      <button onclick="toggle()" id="click" class="now1">Preview or edit</button>
+ </div>
+
+   
+   
+    <script src="./app.js"></script>
+</body>
+</html>

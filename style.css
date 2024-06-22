@@ -1,0 +1,314 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NZ:wght@100..400&family=Playwrite+SK:wght@100..400&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+#profile{
+    transform: translateX(120px);
+}
+
+
+.input-fields{
+    margin: 2px auto;
+    max-width: 1050px;
+    background-image: url("nbb.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    top:0px;
+}
+
+.input-fields input,textarea{
+    width: 40vw;
+    height: 40px;
+    margin: 2px;
+}
+
+input:focus,textarea:focus {
+    outline: none;
+    border:2px solid rgb(68, 218, 255);
+
+}
+
+.hero{
+    background-color: rgb(85, 85, 85);
+    text-align: center;
+    padding: 10px;
+    color:white
+}
+
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(68, 218, 255);
+}
+
+.main h2{
+    border-bottom: 2px solid rgb(7, 7, 7);
+    width: max-content;
+    color:white
+}
+.btn{
+    text-align: center;
+    margin: 2px;
+    background-color: white ;
+
+    
+}
+
+button{
+    width: 150px;
+    background-color: rgb(68, 218, 255);
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    padding: 1px;
+}
+.pic img{
+    height:300px;
+    width:260px;
+   margin-bottom: 0px;
+   padding-bottom: 0px;
+border-radius: 50%;
+border: 2px solid black;
+
+
+}
+label{
+    display:block;
+    width:200px;
+    background: rgb(68, 218, 255);
+    padding: 12px;
+    color: black;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+#input{
+    display: none;
+    height:40px;
+    width:100%;
+   padding:60px;
+    font-size: 90px;
+}
+.fl{
+    display: flex;
+    flex-direction: row;
+border:2px solid black;
+padding: 30px;
+width:30vw;
+height: 4vh;
+margin:30px;
+background-color: white;
+}
+.show{
+    border: none;
+}
+#resumeContainer{
+    width: 30px;
+    height: 30px;
+}
+.output{
+    background-color: grey;
+}
+.pic{
+    display: flex;
+    align-items: center;}
+.here{
+    height: 30px;
+    bottom: 0px;
+    margin-top: auto;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 21px;
+    color: purple;
+}
+.nexa{
+    text-shadow: 1px 1px 3px purple;
+    font: 3.8em sans-serif;
+    font-family: "Playwrite SK", cursive;
+    text-align: center;
+    text-decoration: dotted;
+    width: 900px;
+    
+}
+#s1{
+    height:66px;
+    width:100%;
+  top:0px;
+  bottom: 0px;
+   margin:0px;
+   
+    font-size:33px;}
+    #s0{
+        height:66px;
+        width:100%;
+   
+      bottom: 0px;
+       margin:0px;
+        font-size:33px;}
+        #s2{
+            height:66px;
+            width:100%;
+          
+          bottom: 0px;
+           margin:0px;
+            font-size:33px;}
+            #s3{
+                height:66px;
+                width:100%;
+              top:0px;
+              bottom: 0px;
+               margin:0px;
+                font-size:33px;}
+                #s4{
+                    height:66px;
+                    width:100%;
+                  top:0px;
+                  bottom: 0px;
+                   margin:0px;
+                    font-size:33px;}
+                    #s5{
+                        height:66px;
+                        width:100%;
+                      top:0px;
+                      bottom: 0px;
+                       margin:0px;
+                        font-size:33px;}   
+                        #s6{
+                            height:66px;
+                            width:100%;
+                          top:0px;
+                          bottom: 0px;
+                           margin:0px;
+                            font-size:33px;}   
+                            #s7{
+                                height:66px;
+                                width:100%;
+                              top:0px;
+                              bottom: 0px;
+                               margin:0px;
+                                font-size:33px;}        
+  .now{
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 21px;
+    color: purple;
+   
+  }            
+  .now1{
+    display:inline;
+    background-color: white;
+    border-radius: 30px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 21px;
+    color: purple;
+    padding: 20px;
+
+  }                             
+  .yes{
+    padding: 22px;
+    font-size: 22px;
+  }
+  .new{
+    font-size: 30px;
+  }
+  .h{
+    font-size:35px;
+  }
+  .h2{
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+  /*body{
+    background-image: url('nbb.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+    /* Other styling properties */
+.nexa{
+    font-weight: 700;
+    transform: translateY(33px);
+}
+    
+@media screen and (max-width: 600px){
+    .fl{
+        width:320px;
+        position: relative;
+        transform:translateX(-17px)
+    }
+    .here{
+        height: 44px;
+        padding: 3px;
+        padding-right: -px;
+        width: 88px;
+        position: relative;
+        right:10px;
+        font-size: 16px;
+        border-radius: 8px;
+
+    }
+    #profile{
+        transform: translateX(21px);
+    }
+   #s1{
+    transform: translateY(-10px);
+    }
+    #s0{
+        
+        transform: translateY(-10px);
+    }
+    #s2{
+        transform: translateY(-10px);
+    }
+    #s3{
+        transform: translateY(-10px);
+    }
+    #s4{
+        transform: translateY(-10px);
+    }
+    #s5{
+        transform: translateY(-10px);
+    }
+    #s6{
+        transform: translateY(-10px);
+    }
+    #s7{
+        transform: translateY(-10px);
+    }
+    .now{
+        
+            height: 44px;
+           margin: 0px;
+            width: 88px;
+           transform: translateX(20px);
+            font-size: 20px;
+            border-radius: 2px;
+    
+        
+    }
+    .now1{
+        border-radius: 0px;
+        font-size: 22px;
+    }
+    .nexa{
+        width:280px;
+      transform: translateX(35px);
+    }
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
